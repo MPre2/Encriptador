@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador - Alura+ONE</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body style="background-color: rgb(162, 221, 241);">
+
+    <header class="header">
+        
+        <img src="./Logo.png" alt="Alura">
+        <br><br><br>
+    
+    </header>
+    
+    <main>
+
+        <p id="ingreso">↓ Ingrese el texto AQUI ↓</p>        
+        <textarea id="texto" name="textarea" rows="20" cols="50"></textarea>
+        <br><br>
+        <img id="warning" src="./warning.png" alt="Warning">
+        <p id="aviso">Solo letras minúsculas y sin acento</p>
+        <button id="encriptar" type="button" onclick="encriptar();"/>Encriptar</button>
+        <button id="desencriptar" type="button" onclick="desencriptar();"/>Desencriptar</button>
+        <button id="copiar" type="button" onclick="copiar();">Copiar</button>
+        <br><br>
+        <textarea id="textout" name="textarea" rows="10" cols="50"></textarea>
+
+        <script src="./main.js">
+                     
+        </script>
+
+    </main>
+   
+    <footer>
+
+        <p id="rooster"><b>Desarrollado por Matías Presta</b></p>
+
+    </footer>
+
+</body>
+</html>
