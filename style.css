@@ -16,7 +16,7 @@
 
 #texto {
 
-    position: relative;
+    position: fixed;
     left: 10%;
     right: 25%;
     width: 600px;
@@ -28,14 +28,14 @@
 
 #warning {
 
-    position: absolute;
+    position: fixed;
     bottom: 19.7%;
     left: 10.8%;
 }
 
 #aviso{
 
-    position: absolute;
+    position: fixed;
     bottom: 18%;
     left: 12%;
     width: 205px;
@@ -54,7 +54,7 @@
 
 #encriptar {
     
-    position: absolute;
+    position: fixed;
     left: 10%;
     bottom: 10%;
     width: 328px;
@@ -92,7 +92,7 @@
 
 #copiar {
 
-    position: absolute;
+    position: fixed;
     left: 70%;
     bottom: 5%;
     width: 328px;
@@ -112,7 +112,7 @@
 
 #textout {
    
-    position: absolute;
+    position: fixed;
     width: 400px;
     height: 600px;
     left: 1000px;
@@ -125,7 +125,7 @@
 
 #rooster {
 
-    position: absolute;
+    position: fixed;
     left: 25%;
     bottom: 1%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
