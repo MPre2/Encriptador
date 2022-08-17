@@ -1,4 +1,4 @@
-# Encriptador de texto 🔐
+# Encriptador de texto 🔒
 
 ## Descripción:
 Este proyecto forma parte de los **Challenges ONE**, que son una forma de implementar el _Challenge Based Learning_, es decir, aprendizaje basado en desafíos que _Apple_ ayudó a crear.
@@ -17,7 +17,7 @@ La letra "u" es convertida para "ufat"
 
 ---
 
-## 🔎 Requisitos:
+## 📄 Requisitos:
 - Debe funcionar solo con letras minúsculas.
 - No deben ser utilizados letras con acentos ni caracteres especiales.
 - Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original. Por ejemplo:
@@ -32,7 +32,7 @@ inserción del texto que será encriptado o desencriptado, y el usuario debe pod
 
 ---
 
-## ⚡ Elementos principales de la página:
+## ✍️ Elementos principales de la página:
 - Título de su sitio web.
 - Campo para el texto que va a ser encriptado/desencriptado.
 - Un botón para encriptar.
@@ -42,7 +42,7 @@ inserción del texto que será encriptado o desencriptado, y el usuario debe pod
 - Un rodapie con los datos de la persona que desarrolló el sitio web.
 ---
 
-## 📚 Recursos y materiales:
+## 🔋 Recursos y materiales:
 - [Link del Trello](https://trello.com/b/WTdfcewC/encriptador-de-texto-alura-challenges-one)
 - [Modelo en Figma](https://www.figma.com/file/trP3p5nEh7XUyB3n2bomjP/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica?node-id=0%3A1)
 - [Alura+: ¿Cómo un desarrollador Front End utiliza Figma?](https://www.youtube.com/watch?v=UuAX5azcvDQ)
