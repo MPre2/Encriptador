@@ -10,35 +10,38 @@
 
 </head>
 
-<body style="background-color: rgb(162, 221, 241);">
+<body class="body"><!--Le damos clase al BODY para poder generar el color de fondo-->
 
-    <header class="header">
+    <header>
         
-        <img src="./Imagenes/Logo.png" alt="Alura">
+        
+        <img src="./Imagenes/Logo.png" alt="Alura"><!--Insertamos Logo-->
     
     </header>
     
     <main>
-
-        <textarea id="texto" class="form_texto" placeholder="Ingrese el texto AQUI" required></textarea>
-        <br><br>
+        
+        <!--Genera el area de texto para ingresar frase a encriptar o desencritar-->
+        <textarea id="texto" class="form_texto" placeholder="Ingrese el texto AQUÍ" required></textarea>
+        <!--Imagen de notificacion inferior-->
         <img id="warning" src="./Imagenes/warning.png" alt="Warning">
+        <!--Notificacion inferior-->
         <p id="aviso">Solo letras minúsculas y sin acento</p>
+        <!--Generamos tres botones -Encriptar, Desencriptar y copiar-->
         <button id="encriptar" type="button" onclick="encriptar();"/>Encriptar</button>
         <button id="desencriptar" type="button" onclick="desencriptar();"/>Desencriptar</button>
         <button id="copiar" type="button" onclick="copiar();">Copiar</button>
-        <br><br>
-        <textarea id="textout" class="Form_textout" placeholder="Aun no ingreso texto a encriptar/desencriptar" required></textarea>
+        <!--Genera area de texto de salida-->
+        <textarea id="textout" class="Form_textout" placeholder="Aún no ingreso texto a encriptar/desencriptar" required></textarea>
 
-        <script src="./main.js"></script>
+        <script src="./main.js"></script><!--Llamada al archivo JavaScript externo-->
 
     </main>
    
     <footer id="rooster">
 
-        <h2><b>Desarrollado con pasión por Matias Presta  </b><a href="http://github.com/MPre2"><img src="./Imagenes/GitHub-Mark-32px.png" width="20x" height="20px"></a></h2>
-        <!--<a href="https://instagram.com/presta.matias?igshid=YmMyMTA2M2Y="><img src="./Imagenes/Insta.png" width="20px" height="20px"></a>-->
-        
+        <!--Pie de pagina con los datos del desarrollador-->
+        <h2>Desarrollado con pasión por Matias Presta <a href="http://github.com/MPre2"><img src="./Imagenes/GitHub-Mark-32px.png" width="30x" height="30px"></a></h2>
         
     </footer>
 
