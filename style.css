@@ -19,7 +19,7 @@
     position: fixed;
     left: 10%;
     right: 25%;
-    width: 600px;
+    width: 400px;
     height: 400px;
     border-radius: 10px;
     background-color: rgb(162, 221, 241);
@@ -29,14 +29,14 @@
 #warning {
 
     position: fixed;
-    bottom: 19.7%;
+    bottom: 24.7%;
     left: 10.8%;
 }
 
 #aviso{
 
     position: fixed;
-    bottom: 18%;
+    bottom: 23%;
     left: 12%;
     width: 205px;
     height: 18px;
@@ -56,7 +56,7 @@
     
     position: fixed;
     left: 10%;
-    bottom: 10%;
+    bottom: 15%;
     width: 328px;
     height: 67px;
     border-radius: 24px;
@@ -75,7 +75,7 @@
 
     position: absolute;
     left: 35%;
-    bottom: 10%;
+    bottom: 15%;
     width: 328px;
     height: 67px;
     background-color: lightblue;
@@ -94,7 +94,7 @@
 
     position: fixed;
     left: 70%;
-    bottom: 5%;
+    bottom: 15%;
     width: 328px;
     height: 67px;
     background-color: lightblue;
@@ -114,9 +114,9 @@
    
     position: fixed;
     width: 400px;
-    height: 600px;
+    height: 480px;
     left: 1000px;
-    top: 10x;
+    top: 10%;
     bottom: 120px;
     border-radius: 10px;
     background-color: rgb(239, 240, 241);
@@ -127,8 +127,8 @@
 
     position: fixed;
     left: 25%;
-    bottom: 1%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic;
-    font-size: large;
+    bottom: 5%;
+    font-family: 'arial';
+    font-style: normal;
+    font-size: small;
 }
