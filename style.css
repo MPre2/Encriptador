@@ -5,20 +5,11 @@
     top: 20%;
 }
 
-#ingreso {
-
-    color: blue;
-    font-family: inherit;
-    font-size: large;
-    position: relative;
-    left: 10%;
-}
-
 #texto {
 
     position: fixed;
-    left: 10%;
-    right: 25%;
+    top: 10%;
+    left: 5%;
     width: 400px;
     height: 400px;
     border-radius: 10px;
@@ -30,14 +21,14 @@
 
     position: fixed;
     bottom: 24.7%;
-    left: 10.8%;
+    left: 5.8%;
 }
 
 #aviso{
 
     position: fixed;
     bottom: 23%;
-    left: 12%;
+    left: 7%;
     width: 205px;
     height: 18px;
     font-family: 'Inter';
@@ -55,7 +46,7 @@
 #encriptar {
     
     position: fixed;
-    left: 10%;
+    left: 5%;
     bottom: 15%;
     width: 328px;
     height: 67px;
@@ -74,7 +65,7 @@
 #desencriptar {
 
     position: absolute;
-    left: 35%;
+    left: 30%;
     bottom: 15%;
     width: 328px;
     height: 67px;
@@ -93,7 +84,7 @@
 #copiar {
 
     position: fixed;
-    left: 70%;
+    left: 65%;
     bottom: 15%;
     width: 328px;
     height: 67px;
@@ -115,9 +106,9 @@
     position: fixed;
     width: 400px;
     height: 480px;
-    left: 1000px;
+    left: 62%;
     top: 10%;
-    bottom: 120px;
+    bottom: 60x;
     border-radius: 10px;
     background-color: rgb(239, 240, 241);
     border: 1px solid #fcfcfc;
@@ -126,7 +117,7 @@
 #rooster {
 
     position: fixed;
-    left: 25%;
+    left: 20%;
     bottom: 5%;
     font-family: 'arial';
     font-style: normal;
