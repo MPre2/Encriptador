@@ -7,17 +7,18 @@
 
     font-size: x-large;
     color: grey;
-    font-family: Arial, Helvetica, sans-serif;    
+    font-family: 'inter';    
 }
 
 #texto {
 
     resize: none;
+    outline: none;
     position: fixed;
-    top: 10%;
+    top: 15%;
     left: 10%;
     width: 400px;
-    height: 400px;
+    height: 200px;
     border-radius: 10px;
     background-color: rgb(162, 221, 241);
     border: 1px rgb(58, 178, 218);
@@ -26,14 +27,14 @@
 #warning {
 
     position: fixed;
-    bottom: 24.7%;
+    bottom: 20%;
     left: 5.8%;
 }
 
 #aviso{
 
     position: fixed;
-    bottom: 22.5%;
+    bottom: 18%;
     left: 7%;
     font-family: 'Inter';
     font-style: initial;
@@ -45,7 +46,7 @@
     
     position: fixed;
     left: 5%;
-    bottom: 15%;
+    bottom: 10%;
     width: 328px;
     height: 67px;
     border-radius: 24px;
@@ -62,7 +63,7 @@
 
     position: fixed;
     left: 30%;
-    bottom: 15%;
+    bottom: 10%;
     width: 328px;
     height: 67px;
     background-color: lightblue;
@@ -97,18 +98,19 @@
 
     font-size: large;
     color: grey;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'inter';
 }
 
 #textout {
    
     resize: none;
+    outline: none;
     position: fixed;
     width: 400px;
     height: 480px;
     left: 57%;
     top: 10%;
-    bottom: 60x;
+    bottom: 0%;
     border-radius: 10px;
     background-color: rgb(239, 240, 241);
     border: 1px solid #fcfcfc;
@@ -118,8 +120,8 @@
 
     position: fixed;
     left: 30%;
-    bottom: 5%;
-    font-family: arial;
+    bottom: 3%;
+    font-family: 'inter';
     font-style: initial;
     font-size: small;
-}
+}*/
