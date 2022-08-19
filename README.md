@@ -47,3 +47,5 @@ inserción del texto que será encriptado o desencriptado, y el usuario debe pod
 - [Modelo en Figma](https://www.figma.com/file/trP3p5nEh7XUyB3n2bomjP/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica?node-id=0%3A1)
 - [Alura+: ¿Cómo un desarrollador Front End utiliza Figma?](https://www.youtube.com/watch?v=UuAX5azcvDQ)
 ---
+## 😊 Insignia de finalización de desafío
+![cms_files_10224_1659462746Badge_Sharer_Alura_ChallengeOracleONE_2000x2000_V3](https://user-images.githubusercontent.com/111287993/185621317-7213ac44-a001-48a2-ae88-2dd781c6ebd0.png)
