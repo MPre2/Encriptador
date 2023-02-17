@@ -85,3 +85,11 @@
   font-size: medium;
   text-decoration: none;
 }
+
+/*-------Media Query-------*/
+
+@media (max-width: 480px) {
+  .recuadros {
+    flex-direction: column;
+  }   
+}
