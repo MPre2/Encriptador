@@ -1,127 +1,87 @@
 .body {
-    
-    background-color: rgb(162, 221, 241);
+  background-color: rgb(162, 221, 241);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-#texto::placeholder {
+.recuadros {
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+}
 
-    font-size: x-large;
-    color: grey;
-    font-family: 'inter';    
+#texto::placeholder, #textout::placeholder  {
+  font-size: x-large;
+  color: grey;
+  text-align: center;
+}
+
+#texto, #textout {
+  resize: none;
+  outline: none;
+  width: 400px;
+  border-radius: 10px;
 }
 
 #texto {
-
-    resize: none;
-    outline: none;
-    position: fixed;
-    top: 15%;
-    left: 10%;
-    width: 400px;
-    height: 200px;
-    border-radius: 10px;
-    background-color: rgb(162, 221, 241);
-    border: 1px rgb(58, 178, 218);
-}
-
-#warning {
-
-    position: fixed;
-    bottom: 20%;
-    left: 5.8%;
-}
-
-#aviso{
-
-    position: fixed;
-    bottom: 18%;
-    left: 7%;
-    font-family: 'Inter';
-    font-style: initial;
-    color: #495057;
-    opacity: 0.8;
-}
-
-#encriptar {
-    
-    position: fixed;
-    left: 5%;
-    bottom: 10%;
-    width: 328px;
-    height: 67px;
-    border-radius: 24px;
-    border: 1px solid #0a3871;
-    background-color: darkblue;
-    color: white;
-    font-family: 'Inter';
-    font-style: normal;
-    font-size: 20px;
-    text-align: center;
-}
-
-#desencriptar {
-
-    position: fixed;
-    left: 30%;
-    bottom: 10%;
-    width: 328px;
-    height: 67px;
-    background-color: lightblue;
-    color: blue;
-    border-radius: 24px;
-    border: 1px solid #0a3871;
-    font-family: 'Inter';
-    font-style: normal;
-    font-size: 20px;
-    text-align: center;
-}
-
-#copiar {
-
-    position: fixed;
-    left: 60%;
-    bottom: 15%;
-    width: 328px;
-    height: 67px;
-    background-color: rgb(159, 216, 236);
-    color: blue;
-    border-radius: 24px;
-    border: 1px solid #0a3871;
-    font-family: 'Inter';
-    font-style: normal;
-    font-size: 20px;
-    text-align: center;
-
-}
-
-#textout::placeholder {
-
-    font-size: large;
-    color: grey;
-    font-family: 'inter';
+  height: 350px;
+  background-color: rgb(162, 221, 241);
+  border: 1px rgb(58, 178, 218);
 }
 
 #textout {
-   
-    resize: none;
-    outline: none;
-    position: fixed;
-    width: 400px;
-    height: 480px;
-    left: 57%;
-    top: 10%;
-    bottom: 0%;
-    border-radius: 10px;
-    background-color: rgb(239, 240, 241);
-    border: 1px solid #fcfcfc;
+  height: 480px;
+  background-color: rgb(239, 240, 241);
+  border: 1px solid #fcfcfc;
+}
+
+.encriptado {
+  display: flex;
+  flex-direction: column;
+}
+
+.desencriptado {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+}
+
+#aviso {
+    display: flex;
+    padding: 5px;
+    font-style: normal;
+    color: #495057;
+    font-size: large;    
+}
+
+.buttons {
+  padding: 5px;
+}
+
+#encriptar, #desencriptar, #copiar {
+  width: 300px;
+  height: 60px;
+  border-radius: 20px;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+}
+
+#encriptar {  
+  border: 1px solid #0a3871;
+  background-color: darkblue;
+  color: white;
+}
+
+#desencriptar, #copiar {
+  background-color: lightblue;
+  color: blue;
+  border: 1px solid #0a3871;
 }
 
 #rooster {
-
-    position: fixed;
-    left: 30%;
-    bottom: 3%;
-    font-family: 'inter';
-    font-style: initial;
-    font-size: small;
-}*/
+  display: flex;
+  justify-content: center;
+  font-size: medium;
+  text-decoration: none;
+}

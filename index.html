@@ -15,24 +15,31 @@
     <header>
                 
         <img src="./Imagenes/Logo.png" alt="Alura"><!--Insertamos Logo-->
-    
+        
     </header>
     
     <main>
         
-        <!--Genera el area de texto para ingresar frase a encriptar o desencritar-->
-        <textarea id="texto" class="form_texto" placeholder="Ingrese el texto AQUÍ" required></textarea>
-        <!--Imagen de notificacion inferior-->
-        <img id="warning" src="./Imagenes/warning.png" alt="Warning">
-        <!--Notificacion inferior-->
-        <p id="aviso">Solo letras minúsculas y sin acento</p>
-        <!--Generamos tres botones -Encriptar, Desencriptar y copiar-->
-        <button id="encriptar" type="button" onclick="encriptar();"/>Encriptar</button>
-        <button id="desencriptar" type="button" onclick="desencriptar();"/>Desencriptar</button>
-        <button id="copiar" type="button" onclick="copiar();">Copiar</button>
-        <!--Genera area de texto de salida-->
-        <textarea id="textout" class="Form_textout" placeholder="Aún no ingreso texto a encriptar/desencriptar" required></textarea>
-
+        <div class="recuadros">
+            <div class="encriptado">
+                <!--Genera el area de texto para ingresar frase a encriptar o desencritar-->
+                <textarea id="texto" placeholder="Ingrese el texto AQUÍ" required></textarea>
+                <!--Imagen de notificacion inferior
+                <img id="warning" src="./Imagenes/warning.png" alt="Warning">-->
+                <!--Notificacion inferior-->
+                <p id="aviso"><b>&#33&#33&#33</b>Solo letras minúsculas y sin acento</p>
+                <div class="buttons">
+                    <button id="encriptar" type="button" onclick="encriptar();">Encriptar</button>
+                    <button id="desencriptar" type="button" onclick="desencriptar();">Desencriptar</button>
+                </div>                
+            </div>
+            <div class="desencriptado">
+                <!--Genera area de texto de salida-->
+                <textarea id="textout" placeholder="Aún no ingreso texto a encriptar/desencriptar" required></textarea><br>
+                <!--Generamos tres botones -Encriptar, Desencriptar y copiar-->
+                <button id="copiar" type="button" onclick="copiar();">Copiar</button>
+            </div> 
+        </div>          
         <script src="./main.js"></script><!--Llamada al archivo JavaScript externo-->
 
     </main>
@@ -40,10 +47,7 @@
     <footer id="rooster">
 
         <!--Pie de pagina con los datos del desarrollador-->
-        Desarrollado por Matias Presta
-        @Copyright 2022 - Todos los derechos reservados 
-        <a href="http://github.com/MPre2"><img src="./Imagenes/GitHub-Mark-32px.png" width="20px"></a>
-        <a href="http://instagram.com/presta.matias/"><img src="./Imagenes/Insta.png" width="20px"></a>      
+        <p>&copy 2022 - Desarrollado por<a href="https://www.linkedin.com/in/matias-presta/" style="text-decoration:none"> MPre2</a></p>
                 
     </footer>
 
