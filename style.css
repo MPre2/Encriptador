@@ -101,7 +101,7 @@
   #texto,
   #textout {
     width: 250px;
-    height: 300px;
+    height: 250px;
   }
 
   #texto::placeholder,
