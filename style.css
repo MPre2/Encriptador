@@ -4,18 +4,20 @@
 }
 
 .recuadros {
-    display: flex;
-    justify-content:space-around;
-    padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
 }
 
-#texto::placeholder, #textout::placeholder  {
+#texto::placeholder,
+#textout::placeholder {
   font-size: x-large;
   color: grey;
   text-align: center;
 }
 
-#texto, #textout {
+#texto,
+#textout {
   resize: none;
   outline: none;
   width: 400px;
@@ -47,18 +49,20 @@
 }
 
 #aviso {
-    display: flex;
-    padding: 5px;
-    font-style: normal;
-    color: #495057;
-    font-size: large;    
+  display: flex;
+  padding: 5px;
+  font-style: normal;
+  color: #495057;
+  font-size: large;
 }
 
 .buttons {
   padding: 5px;
 }
 
-#encriptar, #desencriptar, #copiar {
+#encriptar,
+#desencriptar,
+#copiar {
   width: 300px;
   height: 60px;
   border-radius: 20px;
@@ -67,13 +71,14 @@
   text-align: center;
 }
 
-#encriptar {  
+#encriptar {
   border: 1px solid #0a3871;
   background-color: darkblue;
   color: white;
 }
 
-#desencriptar, #copiar {
+#desencriptar,
+#copiar {
   background-color: lightblue;
   color: blue;
   border: 1px solid #0a3871;
@@ -91,14 +96,16 @@
 @media (max-width: 767px) {
   .recuadros {
     flex-direction: column;
-  }   
-
-  #texto, #textout {
-    width: 250px;
-    height: 150px
   }
 
-  #texto::placeholder, #textout::placeholder  {
+  #texto,
+  #textout {
+    width: 250px;
+    height: 150px;
+  }
+
+  #texto::placeholder,
+  #textout::placeholder {
     font-size: large;
   }
 
@@ -107,17 +114,19 @@
     align-items: center;
   }
 
-  #encriptar, #desencriptar, #copiar {
+  #encriptar,
+  #desencriptar,
+  #copiar {
     width: 150px;
     height: 30px;
     border-radius: 10px;
     font-size: 15px;
   }
-  
+
   #aviso {
-    font-size: medium;    
+    font-size: medium;
   }
-  
+
   .buttons {
     display: flex;
   }
@@ -128,12 +137,14 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  #texto, #textout {
+  #texto,
+  #textout {
     width: 300px;
-    height: 350px
+    height: 350px;
   }
 
-  #texto::placeholder, #textout::placeholder  {
+  #texto::placeholder,
+  #textout::placeholder {
     font-size: x-large;
   }
 
@@ -142,17 +153,19 @@
     align-items: center;
   }
 
-  #encriptar, #desencriptar, #copiar {
+  #encriptar,
+  #desencriptar,
+  #copiar {
     width: 200px;
     height: 50px;
     border-radius: 15px;
     font-size: 18px;
   }
-  
+
   #aviso {
-    font-size: medium;    
+    font-size: medium;
   }
-  
+
   .buttons {
     display: flex;
   }
