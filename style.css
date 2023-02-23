@@ -88,8 +88,76 @@
 
 /*-------Media Query-------*/
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .recuadros {
     flex-direction: column;
   }   
+
+  #texto, #textout {
+    width: 250px;
+    height: 150px
+  }
+
+  #texto::placeholder, #textout::placeholder  {
+    font-size: large;
+  }
+
+  .encriptado {
+    justify-content: center;
+    align-items: center;
+  }
+
+  #encriptar, #desencriptar, #copiar {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  
+  #aviso {
+    font-size: medium;    
+  }
+  
+  .buttons {
+    display: flex;
+  }
+
+  #rooster {
+    font-size: small;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #texto, #textout {
+    width: 300px;
+    height: 350px
+  }
+
+  #texto::placeholder, #textout::placeholder  {
+    font-size: x-large;
+  }
+
+  .encriptado {
+    justify-content: center;
+    align-items: center;
+  }
+
+  #encriptar, #desencriptar, #copiar {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  
+  #aviso {
+    font-size: medium;    
+  }
+  
+  .buttons {
+    display: flex;
+  }
+
+  #rooster {
+    font-size: small;
+  }
 }
