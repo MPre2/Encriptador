@@ -21,6 +21,7 @@ function desencriptar() {
     text = text.replace(/ober/gi, "o");
     text = text.replace(/ufat/gi, "u");
     document.getElementById("textout").value = text;
+    document.getElementById("text").value = "";
     
 }
 
