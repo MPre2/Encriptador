@@ -143,10 +143,10 @@
   }
 
   #encriptar, #desencriptar, #copiar {
-    width: 150px;
-    height: 30px;
-    border-radius: 10px;
-    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 18px;
   }
   
   #aviso {
