@@ -86,7 +86,7 @@
   text-decoration: none;
 }
 
-/*-------Media Query-------*/
+/*-------Media Query / Responsividad-------*/
 
 @media (max-width: 767px) {
   .recuadros {
